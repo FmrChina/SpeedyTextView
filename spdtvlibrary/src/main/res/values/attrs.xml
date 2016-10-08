@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpeedyTextView">
+        <attr name="bgColor" format="color"></attr>
+        <attr name="bgCircleAngle" format="dimension"></attr>
+        <attr name="bgClickColor" format="color"></attr>
+        <attr name="normalStorkeWidth" format="dimension"></attr>
+        <attr name="normalStorkeColor" format="color"></attr>
+        <attr name="pressStorkeWidth" format="dimension"></attr>
+        <attr name="pressStorkeColor" format="color"></attr>
+        <attr name="topLeftCA" format="dimension"></attr>
+        <attr name="topRightCA" format="dimension"></attr>
+        <attr name="buttomLeftCA" format="dimension"></attr>
+        <attr name="buttomRightCA" format="dimension"></attr>
+        <attr name="pressTextColor" format="color"></attr>
+
+    </declare-styleable>
+
+</resources>
