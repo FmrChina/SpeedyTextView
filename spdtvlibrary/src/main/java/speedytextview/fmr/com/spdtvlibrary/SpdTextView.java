@@ -129,10 +129,9 @@ public class SpdTextView extends TextView implements View.OnClickListener {
 
     /**
      * 设置背景选择器
-     *
-     * @param pressedDraw
      * @param normalDraw
-     * @return
+     * @param pressedDraw
+     * @return stateListDrawable
      */
     private StateListDrawable getSelector(Drawable normalDraw, Drawable pressedDraw) {
         StateListDrawable stateListDrawable = new StateListDrawable();
@@ -149,7 +148,7 @@ public class SpdTextView extends TextView implements View.OnClickListener {
      * @param bgColor
      * @param storkeWidth
      * @param strokeColor
-     * @return
+     * @return gradientDrawable
      */
     private GradientDrawable getDrawable(int bgCircleAngle, int bgColor, int storkeWidth, int strokeColor) {
         GradientDrawable gradientDrawable = new GradientDrawable();
