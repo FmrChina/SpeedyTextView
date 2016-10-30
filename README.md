@@ -3,7 +3,7 @@
 ## 效果图
 ![](https://github.com/FmrChina/SpeedyTextView/raw/master/SpdTv.gif) 
 ## 引入
-  compile 'com.fmr:speedytextview:1.0.0'
+    compile 'com.fmr:speedytextview:1.0.0'
 ## 使用
     <speedytextview.fmr.com.spdtvlibrary.SpdTextView
             android:id="@+id/spd5"
@@ -35,6 +35,6 @@
                 .setPressStorkeColor(ContextCompat.getColor(this, R.color.antiquewhite))
                 .setBgCircleAngle(40)
                 .build();
-                <br>
+                
 使用属性代码都有比较详细注释，这里不过多解释
 <br>详细说明可以看 [这篇文章](http://blog.csdn.net/silentweek/article/details/52928220)
