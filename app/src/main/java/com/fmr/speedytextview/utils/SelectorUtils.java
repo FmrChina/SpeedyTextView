@@ -14,7 +14,7 @@ public class SelectorUtils {
 
 
     public static SelectorUtils getInstance(Context context) {
-        SelectorUtils inst = selectorUtils;// <<< 在这里创建临时变量
+        SelectorUtils inst = selectorUtils;// 在这里创建临时变量
         if(selectorUtils ==null) {
             synchronized (SelectorUtils.class) {
                 inst = selectorUtils;
@@ -24,7 +24,7 @@ public class SelectorUtils {
                 }
             }
         }
-        return inst;// <<< 注意这里返回的是临时变量
+        return inst;// 这里返回的是临时变量
     }
 
 
@@ -45,6 +45,17 @@ public class SelectorUtils {
         return stateListDrawable ;
     }
 
+    /**
+     * 设置shape(设置单独圆角)
+     * @param topLeftCA
+     * @param topRigthCA
+     * @param buttomLeftCA
+     * @param buttomRightCA
+     * @param bgColor
+     * @param storkeWidth
+     * @param strokeColor
+     * @return
+     */
     public GradientDrawable getDrawable(float topLeftCA, float topRigthCA, float buttomLeftCA,
                                         float buttomRightCA, int bgColor, int storkeWidth, int strokeColor) {
         //把边框值设置成dp对应的px
@@ -66,7 +77,7 @@ public class SelectorUtils {
     }
 
     /**
-     * 设置shape
+     * 设置shape(圆角)
      *
      * @param bgCircleAngle
      * @param bgColor
