@@ -75,6 +75,9 @@ public class SelectorUtils {
      * @return
      */
     public GradientDrawable getDrawable(int bgCircleAngle, int bgColor, int width, int strokeColor) {
+        bgCircleAngle = dp2px(mContext,bgCircleAngle);
+        width = dp2px(mContext,width);
+
         GradientDrawable gradientDrawable = new GradientDrawable();
         gradientDrawable.setCornerRadius(bgCircleAngle);
         gradientDrawable.setColor(bgColor);
